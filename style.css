@@ -1,0 +1,102 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    background-image: url(back.jpg);
+    background-size: cover;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background-color: orange;
+    text-align: center;
+    padding: 20px;
+    margin-right: -10px; /* Compensate for the padding and spacing */
+    margin-left: -10px;  /* Compensate for the padding and spacing */
+    border-radius: 10px 10px 0 0; /* Rounded corners top-left and top-right */
+}
+
+.title {
+    font-size: 36px;
+    margin: 0;
+    color: black;
+}
+
+.description {
+    font-size: 18px;
+    color: white;
+}
+
+.text-form {
+    margin-top: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 0 0 10px 10px; /* Rounded corners bottom-left and bottom-right */
+}
+
+textarea {
+    width: calc(100% ); /* Adjust the width with extra padding */
+    padding: 10px;
+    resize: vertical;
+    margin-left: -10px; /* Compensate for the extra padding on the left */
+    border-radius: 6px; /* Rounded corners for the textarea */
+}
+
+.submit-btn {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 6px; /* Rounded corners for the button */
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+.original_title{
+    background-color: orangered;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.summary_title{
+    background-color: greenyellow;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.srt{
+    display: flex;
+    flex-direction: row;
+}
+
+.originalTxt{
+   background-color: orangered;
+   padding: 20px;
+}
+.summaryTxt{
+     background-color: greenyellow;
+     padding: 20px;
+     margin-left: 10px;
+}
